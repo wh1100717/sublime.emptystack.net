@@ -1,0 +1,404 @@
+/*---------- Typography ----------*/
+* html body {
+  /* =ie6 */
+  font-family: MS PGothic, "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+  text-autospace: ideograph-alpha;
+}
+
+/* =ie7, =ie8 */
+* + html body {
+  font-family: Meiryo, MS PGothic, sans-serif;
+}
+
+body {
+  font-family: MS PGothic, "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+}
+
+/* basic
+ * ---------------------------------------------- */
+body {
+  background: url(img/17.png) #333333;
+  padding: .5em 1em;
+}
+
+.container {
+  margin: 0 auto 2em;
+  min-width: 480px;
+  width: 1168px;
+}
+
+/* typography
+ * ---------------------------------------------- */
+.title,
+.icon .command,
+.info .category,
+kbd,
+.desc.en,
+.legend {
+  font-family: "Chivo", sans-serif;
+}
+
+/* bootstrap
+ * ---------------------------------------------- */
+.row {
+  margin-left: 0;
+}
+.row.topmg {
+  margin-top: 3.2em;
+}
+
+[class*="span"] {
+  margin-left: 4px;
+}
+
+.span1 {
+  width: auto;
+}
+
+.offset5 {
+  margin-left: 488px;
+}
+
+.offset6 {
+  margin-left: 585px;
+}
+
+.offset7 {
+  margin-left: 681px;
+}
+
+.offset8 {
+  margin-left: 777px;
+}
+
+.offset9 {
+  margin-left: 874px;
+}
+
+.offset10 {
+  margin-left: 971px;
+}
+
+/* Masthead
+ * ---------------------------------------------- */
+.masthead {
+  border-bottom: 1px solid #333;
+  box-shadow: 0 1px 0 rgba(128, 128, 128, 0.3);
+  font-weight: bold;
+}
+.masthead p {
+  font-size: 1.6em;
+  margin: .2em .5em .3em;
+}
+
+.title {
+  color: #f8f8f3;
+  text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.2);
+}
+
+/* Content header
+ * ---------------------------------------------- */
+.content-header {
+  text-align: center;
+  margin-bottom: -80px;
+}
+.content-header h1 {
+  display: none;
+  font-size: 4em;
+  margin: 38px 0 28px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #e6da82, 0 0 2px #5bdaec;
+}
+.content-header p {
+  color: #5bdaec;
+  display: none;
+  font-size: 1.4em;
+  text-align: center;
+  text-shadow: 0 0 16px #5bdaec, 0 0 12px #4b78cb;
+}
+.content-header .title-logo {
+  display: block;
+  margin: 38px auto 0;
+}
+
+.btn-group {
+  display: inline-block;
+  list-style: none;
+  margin: 20px auto;
+  min-width: 80px;
+}
+.btn-group li {
+  border: 1px solid transparent;
+  float: left;
+}
+.btn-group li a {
+  display: block;
+  height: 32px;
+  padding: 8px 12px;
+  width: 32px;
+}
+.btn-group li.active {
+  border-color: #5bdaec;
+  border-radius: .4em;
+  box-shadow: 0 0 8px #5bdaec, 0 0 4px #4b78cb;
+}
+.btn-group .v-divider {
+  background: #666;
+  border: none;
+  border-right: 1px solid #e5e5e5;
+  height: 44px;
+  margin: 2px 18px;
+  width: 1px;
+}
+
+/* Periodic Table
+ * ---------------------------------------------- */
+.periodic-table {
+  clear: both;
+}
+
+.element {
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.icon {
+  background: white;
+  border-radius: .3em;
+  cursor: pointer;
+  display: block;
+  font-size: .9em;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.icon .icon-inner {
+  border-radius: .3em;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(128, 128, 128, 0.25)));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(128, 128, 128, 0.25));
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(128, 128, 128, 0.25));
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(128, 128, 128, 0.25));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(128, 128, 128, 0.25));
+  position: relative;
+  width: 100%;
+}
+.icon .command {
+  color: #fff;
+  display: block;
+  font-size: 1em;
+  height: 6.4em;
+  overflow: hidden;
+  padding: 6px;
+  opacity: .8;
+  text-shadow: 0 -1px 0 rgba(58, 58, 58, 0.3);
+  width: 6.4em;
+}
+.icon:hover {
+  box-shadow: 0 0 18px #5bdaec, 0 0 12px #4b78cb, inset 0 0 4px #f8f8f3;
+}
+.icon:hover .icon-inner {
+  background-image: none;
+}
+
+.keypress {
+  font-size: .6em;
+  margin: 0;
+  position: absolute;
+  bottom: .5em;
+  left: 0;
+  width: 100%;
+}
+.keypress kbd {
+  background: #505050;
+  border-radius: 0.3em;
+  box-shadow: inset 0 0 1px #969696, inset 0 -0.05em 0.4em #505050, 0 0.1em 0 #1e1e1e, 0 0.1em 0.1em rgba(0, 0, 0, 0.3);
+  color: #FAFAFA;
+  display: inline-block;
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: normal;
+  text-shadow: -1px -1px 0 #464646;
+  padding: 0.2em;
+  min-width: 1em;
+}
+
+.navigation .icon {
+  background-color: #fe2370;
+}
+
+.split-window .icon {
+  background-color: #a2e154;
+}
+.split-window .icon .command {
+  color: #666;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.text-manipulation .icon {
+  background-color: #5bdaec;
+}
+.text-manipulation .icon .command {
+  color: #666;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.bookmarks .icon {
+  background-color: #ff8f00;
+}
+
+.find-replace .icon {
+  background-color: #b083ef;
+}
+
+.general .icon {
+  background-color: #757160;
+}
+
+.tabs .icon {
+  background-color: #4b78cb;
+}
+
+.editing .icon {
+  background-color: #e6da82;
+}
+.editing .icon .command {
+  color: #666;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.code-folding .icon {
+  background-color: #f8f8f3;
+}
+.code-folding .icon .command {
+  color: #666;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* info
+ * ---------------------------------------------- */
+.info {
+  background: white;
+  border-radius: .3em;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.6);
+  display: none;
+  min-height: 80px;
+  padding: 10px 15px;
+  position: absolute;
+  left: 8px;
+  top: 6.6em;
+  width: 260px;
+  z-index: 100;
+}
+.info:after {
+  content: "";
+  left: 2em;
+  top: -24px;
+  height: 0;
+  margin-right: -6px;
+  position: absolute;
+  width: 0;
+  border: 12px solid #fff;
+  border-color: transparent;
+  border-bottom-color: #fff;
+}
+.info h3.keypress {
+  clear: right;
+  font-size: .8em;
+  line-height: 1em;
+  margin-bottom: 10px;
+  position: static;
+}
+.info h3.keypress kbd {
+  margin: 0 .2em;
+  padding: .5em .3em;
+}
+.info p {
+  color: #888;
+  text-shadow: none;
+  font-size: 1em;
+}
+.info .desc {
+  text-align: left;
+}
+.info .desc.jp {
+  color: #333;
+}
+.info .category {
+  display: inline-block;
+  float: right;
+  font-size: .86em;
+  margin-bottom: 0;
+}
+
+.info.align-right {
+  left: auto;
+  right: 8px;
+}
+.info.align-right:after {
+  left: auto;
+  right: 2em;
+}
+
+/* legend
+ * ---------------------------------------------- */
+.legend {
+  list-style: none;
+  margin-top: 32px;
+  width: 60%;
+}
+.legend li {
+  color: #fff;
+  float: left;
+  padding: 10px 0;
+  width: 33%;
+}
+.legend li .icon {
+  display: inline-block;
+  height: 1.5em;
+  margin: 0 .4em 0 0;
+  vertical-align: middle;
+  width: 1.5em;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: auto;
+  }
+
+  [class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
+    float: left;
+  }
+
+  .offset5,
+  .offset6,
+  .offset7,
+  .offset8,
+  .offset9,
+  .offset10 {
+    margin-left: 4px;
+  }
+
+  .content-header {
+    margin-bottom: 0;
+  }
+  .content-header h1 {
+    font-size: 2.8em;
+    margin: 18px 0 10px;
+  }
+  .content-header p {
+    font-size: 1.4em;
+  }
+  .content-header .title-logo {
+    width: 60%;
+  }
+
+  .legend li {
+    width: 49%;
+  }
+}

@@ -1,0 +1,297 @@
+﻿{
+	"textManipulation": {
+		"data": [
+			{
+				"descZh":   "转换为大写",
+				"descEn":   "to Uppercase.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>K</kbd> <kbd>U</kbd>"
+			},
+			{
+				"descZh":   "转换为小写",
+				"descEn":   "to Lowercase.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>K</kbd> <kbd>L</kbd>"
+			}
+		],
+		"category": "文本编辑"
+	},
+	"navigation": {
+		"data": [
+			{
+				"descZh":   "根据名称快速打开文件",
+				"descEn":   "Quick-open files by name.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>P</kbd>"
+			},
+			{
+				"descZh":   "跳转到所定义模块",
+				"descEn":   "Goto symbol.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>R</kbd>"
+			},
+			{
+				"descZh":   "跳转到当前文件中的单词",
+				"descEn":   "Goto word in current file.",
+				"keypress": ""
+			},
+			{
+				"descZh":   "跳转到当前文件所在行",
+				"descEn":   "Goto line in current file.",
+				"keypress": "<kbd>&#x2303;</kbd>+<kbd>G</kbd>"
+			}
+		],
+		"category": "导航/跳转"
+	},
+	"findReplace": {
+		"data": [
+			{
+				"descZh":   "查询",
+				"descEn":   "Find.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>F</kbd>"
+			},
+			{
+				"descZh":   "替换",
+				"descEn":   "Replace.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>F</kbd>"
+			},
+			{
+				"descZh":   "在所有打开的项目中进行查询",
+				"descEn":   "Find in files.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>F</kbd>"
+			}
+		],
+		"category": "查询/替换"
+	},
+	"general": {
+		"data": [
+			{
+				"descZh":   "打开配置(Preferences)文件",
+				"descEn":   "Open the Setting (Preferences) file.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>,</kbd>"
+			},
+			{
+				"descZh":   "打开控制台",
+				"descEn":   "Cmd prompt.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>P</kbd>"
+			},
+			{
+				"descZh":   "显示侧边栏",
+				"descEn":   "Side bar.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>K</kbd> <kbd>B</kbd>"
+			},
+			{
+				"descZh":   "在状态栏中显示所选域`",
+				"descEn":   "Show scope in status bar.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>P</kbd>"
+			}
+		],
+		"category": "通用"
+	},
+	"bookmarks": {
+		"data": [
+			{
+				"descZh":   "设置书签行",
+				"descEn":   "Bookmark.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>F2</kbd>"
+			},
+			{
+				"descZh":   "移动到下一个书签行",
+				"descEn":   "Next bookmark.",
+				"keypress": "<kbd>F2</kbd>"
+			},
+			{
+				"descZh":   "移动到上一个书签行",
+				"descEn":   "Previous bookmark.",
+				"keypress": "<kbd>&#x21E7;</kbd>+<kbd>F2</kbd>"
+			},
+			{
+				"descZh":   "清楚所有书签",
+				"descEn":   "Clear bookmark.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>F2</kbd>"
+			}
+		],
+		"category": "书签"
+	},
+	"splitWindow": {
+		"data": [
+			{
+				"descZh":   "将编辑区屏幕分为2列",
+				"descEn":   "Split view into two columns.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>2</kbd>"
+			},
+			{
+				"descZh":   "将编辑区屏幕重置为1列",
+				"descEn":   "Revert view to 1 column.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>1</kbd>"
+			},
+			{
+				"descZh":   "将编辑区设置为格状",
+				"descEn":   "Set view to grid(4组).",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>5</kbd>"
+			},
+			{
+				"descZh":   "将编辑区屏幕分为2行",
+				"descEn":   "Split view into two rows.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>2</kbd>"
+			},
+			{
+				"descZh":   "跳转到对应数字1-4组编辑区",
+				"descEn":   "Jump to group where num is 1-4.",
+				"keypress": "<kbd>&#x2303;</kbd>+<kbd>[Num]</kbd>"
+			},
+			{
+				"descZh":   "移动文件到对应数字1-4组编辑区",
+				"descEn":   "Move file to specified group where num is 1-4.",
+				"keypress": "<kbd>&#x2303;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>[Num]</kbd>"
+			}
+		],
+		"category": "分屏"
+	},
+	"tabs": {
+		"data": [
+			{
+				"descZh":   "打开最近关闭的tab",
+				"descEn":   "Open last closed tab.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>T</kbd>"
+			},
+			{
+				"descZh":   "以词为单位进行左右移动.",
+				"descEn":   "Find in files.",
+				"keypress": "<kbd>&#x21E7;</kbd>+<kbd>&#8644;</kbd>"
+			},
+			{
+				"descZh":   "逆序显示tab",
+				"descEn":   "Cycle up through tabs.",
+				"keypress": ""
+			},
+			{
+				"descZh":   "顺序显示tab",
+				"descEn":   "Cycle down through tabs.",
+				"keypress": ""
+			}
+		],
+		"category": "Tabs"
+	},
+	"editing": {
+		"data": [
+			{
+				"descZh":   "删除行",
+				"descEn":   "Delete line.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>X</kbd>"
+			},
+			{
+				"descZh":   "在当前行后下方另起一行",
+				"descEn":   "Insert line after.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x23ce;</kbd>"
+			},
+			{
+				"descZh":   "在当前行上方另起一行",
+				"descEn":   "Insert line before.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>&#x23ce;</kbd>"
+			},
+			{
+				"descZh":   "光标点上方内容全选",
+				"descEn":   "Move line/selection up.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>&#8593;</kbd>"
+			},
+			{
+				"descZh":   "光标点下方内容全选",
+				"descEn":   "Move line/selection down.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>&#8595;</kbd>"
+			},
+			{
+				"descZh":   "选中行 - 重复输入则选中下一行",
+				"descEn":   "Select line - Repeat to select next lines.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>L</kbd>"
+			},
+			{
+				"descZh":   "选中词 - 重复输入选中其他相同词",
+				"descEn":   "Select word - Repeat select others occurrences.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>D</kbd>"
+			},
+			{
+				"descZh":   "跳转到封闭模块处",
+				"descEn":   "Jump to closing parentheses. Repeat to jump to opening parentheses.",
+				"keypress": "<kbd>&#x2303;</kbd>+<kbd>M</kbd>"
+			},
+			{
+				"descZh":   "选中封闭模块内所有内容",
+				"descEn":   "Select all contents of the current parentheses.",
+				"keypress": "<kbd>&#x2303;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>M</kbd>"
+			},
+			{
+				"descZh":   "删除行光标位置后所有内容",
+				"descEn":   "Delete from cursor to end of line.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>K</kbd> <kbd>K</kbd>"
+			},
+			{
+				"descZh":   "删除行光比位置前所有内容",
+				"descEn":   "Delete from cursor to start of line.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>K</kbd>+<kbd>⌫</kbd>"
+			},
+			{
+				"descZh":   "增加缩进",
+				"descEn":   "Indent line(s).",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>]</kbd>"
+			},
+			{
+				"descZh":   "减少缩进",
+				"descEn":   "Un-indent line(s).",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>[</kbd>"
+			},
+			{
+				"descZh":   "复制所选区域",
+				"descEn":   "Duplicate line(s).",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>D</kbd>"
+			},
+			{
+				"descZh":   "将下一行和当前行连接",
+				"descEn":   "Join line below to the end of the current line.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>J</kbd>"
+			},
+			{
+				"descZh":   "对所选区域进行注释/取消注释",
+				"descEn":   "Comment/un-cwomment current line.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>/</kbd>"
+			},
+			{
+				"descZh":   "对所选区域进行块注释/取消块注释",
+				"descEn":   "Block comment current selection.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>/</kbd>"
+			},
+			{
+				"descZh":   "重做或执行上一次快捷键命令",
+				"descEn":   "Redo, or repeat last keyboard shortcut command.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>Y</kbd>"
+			},
+			{
+				"descZh":   "撤销",
+				"descEn":   "undo",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>Z</kbd>"
+			},
+			{
+				"descZh":   "根据缩进进行黏贴",
+				"descEn":   "Paste and indent correctly.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x21E7;</kbd>+<kbd>V</kbd>"
+			},
+			{
+				"descZh":   "显示自动补全",
+				"descEn":   "Select next auto-complete suggestion.",
+				"keypress": "<kbd>&#x2303;</kbd>+<kbd>Space</kbd>"
+			}
+		],
+		"category": "编辑"
+	},
+	"codeFolding": {
+		"data": [
+			{
+				"descZh":   "折叠选中区域代码",
+				"descEn":   "Fold tag Attributes.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>[</kbd>"
+			},
+			{
+				"descZh":   "取消折叠选中区域代码",
+				"descEn":   "Unfold tags.",
+				"keypress": "<kbd>&#x2318;</kbd>+<kbd>&#x2325;</kbd>+<kbd>]</kbd>"
+			}
+		],
+		"category": "代码折叠"
+	}
+}
